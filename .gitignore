@@ -6,6 +6,34 @@ __pycache__/
 # C extensions
 *.so
 
+
+# app
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.vscode/
+.idea/
+allure-results/
+allure-report/
+reports/
+*.result.json
+*.container.json
+*.attachment.txt
+
+*.json
+*.txt
+*.html
+*.xml
+*.db
+*.sqlite3
+.DS_Store
+chromedriver
+geckodriver
+*.png
+*.jpg
+*.jpeg
+
 # Distribution / packaging
 .Python
 build/
@@ -69,7 +97,7 @@ instance/
 .scrapy
 
 # Sphinx documentation
-docs/_build/
+../docs/_build/
 
 # PyBuilder
 .pybuilder/
@@ -182,9 +210,9 @@ cython_debug/
 .abstra/
 
 # Visual Studio Code
-#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
+#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore
 #  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
-#  and can be added to the global gitignore or merged into this file. However, if you prefer, 
+#  and can be added to the global gitignore or merged into this file. However, if you prefer,
 #  you could uncomment the following to ignore the entire vscode folder
 # .vscode/
 
