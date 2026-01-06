@@ -34,6 +34,11 @@ geckodriver
 *.jpg
 *.jpeg
 
+# Исключение для документации
+!docs/*.png
+!docs/*.jpg
+!docs/*.jpeg
+
 # Distribution / packaging
 .Python
 build/
